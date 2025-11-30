@@ -1,0 +1,57 @@
+/* Bebas Neue - для заголовков (H1-H4) */
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url('/fonts/BebasNeue-Thin.otf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url('/fonts/BebasNeue-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url('/fonts/BebasNeue-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url('/fonts/BebasNeue-Book.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url('/fonts/BebasNeue-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* NT Somic - для текста (T1-T4) */
+@font-face {
+  font-family: 'NT Somic';
+  src: url('/fonts/01_NTSomic-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NT Somic';
+  src: url('/fonts/02_NTSomic-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NT Somic';
+  src: url('/fonts/03_NTSomic-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}

@@ -1,0 +1,36 @@
+@import './fonts.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* Заголовки ТОЛЬКО с Bebas Neue */
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-heading;
+  }
+
+  /* Текст ТОЛЬКО с NT Somic */
+  p,
+  span,
+  a,
+  li,
+  label,
+  input,
+  textarea,
+  button {
+    @apply font-body;
+  }
+
+  /* Темная тема по умолчанию системная */
+  html {
+    @apply bg-white text-black;
+  }
+
+  html.dark {
+    @apply bg-black text-white;
+  }
+}

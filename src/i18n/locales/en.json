@@ -1,0 +1,36 @@
+{
+  "nav": {
+    "home": "Home",
+    "events": "Events"
+  },
+  "auth": {
+    "login": "Login",
+    "register": "Sign Up"
+  },
+  "hero": {
+    "slogan": "Live with bright events"
+  },
+  "contrast": {
+    "participant": {
+      "title": "I'm a participant",
+      "description": "Find events, buy tickets, participate",
+      "cta": "My opportunities"
+    },
+    "organizer": {
+      "title": "I'm an organizer",
+      "description": "Create events, sell tickets, manage",
+      "cta": "My opportunities"
+    }
+  },
+  "categories": {
+    "title": "Event categories",
+    "eventsCount": "{{count}} events",
+    "scrollLeft": "Scroll left",
+    "scrollRight": "Scroll right"
+  },
+  "events": {
+    "title": "Upcoming events",
+    "showMore": "Show more",
+    "from": "from"
+  }
+}

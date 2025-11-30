@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 import { useAppStore } from './store/appStore'
 import HomePage from './pages/HomePage'
 import './i18n/config'
@@ -28,11 +28,11 @@ function App() {
   }, [theme])
 
   return (
-    <BrowserRouter>
+    <HashRouter> {/* ← ЗАМЕНИТЕ BrowserRouter на HashRouter */}
       <Routes>
         <Route path="/" element={<HomePage />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
